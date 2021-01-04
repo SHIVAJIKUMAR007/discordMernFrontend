@@ -1,0 +1,123 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.25;
+  height: 100vh;
+
+  .sidebarTop {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    border-bottom: 0.3rem solid #26282c;
+  }
+
+  .sidebarChannel {
+    flex: 1;
+    color: grey;
+
+    .sidebarChannelHeader {
+      width: 98%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .channelHeader {
+        display: flex;
+        align-items: center;
+      }
+
+      .addIcon:hover {
+        color: white;
+        cursor: pointer;
+      }
+    }
+
+    .channelList {
+      margin-top: 0.6rem;
+      overflow-y: scroll;
+      -ms-overflow-style: none;
+      scrollbar-width: none; /* Firefox */
+
+      .channel {
+        padding: 0.4rem;
+        h3 {
+          display: flex;
+          padding-left: 1rem;
+          align-items: center;
+          cursor: pointer;
+        }
+      }
+
+      .channel:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        h3 {
+          color: white;
+          transform: scale(1.08);
+          span {
+            color: white;
+            margin: 0.4rem;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebarVoice {
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    color: grey;
+    padding: 0.6rem;
+    .voiceIcon {
+      color: rgb(55, 175, 71);
+      margin-right: 0.7rem;
+    }
+    .voiceInfo {
+      flex: 1;
+      h3 {
+        color: rgb(55, 175, 71);
+      }
+    }
+
+    .rightIcons {
+      display: flex;
+      flex-direction: column;
+
+      .MuiSvgIcon-root {
+        margin: 0.3rem;
+      }
+    }
+  }
+
+  .sidebarProfile {
+    border-top: 1px solid grey;
+    display: flex;
+    align-items: center;
+    color: grey;
+    padding: 0.6rem;
+    .avatar {
+      margin-right: 0.7rem;
+    }
+    .profileInfo {
+      flex: 1;
+      h3 {
+        color: rgb(55, 175, 71);
+      }
+    }
+
+    .profileIcon {
+      display: flex;
+      flex-direction: column;
+
+      .MuiSvgIcon-root {
+        margin: 0.2rem;
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

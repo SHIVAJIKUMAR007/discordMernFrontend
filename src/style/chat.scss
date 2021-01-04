@@ -1,0 +1,91 @@
+.chat {
+  height: 100vh;
+  display: flex;
+  flex: 0.75 1;
+  flex-direction: column;
+  color: grey;
+
+  .chatHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.6rem;
+    border-bottom: 5px solid #383737;
+
+    h1 {
+      span {
+        margin-left: 3rem;
+        margin-right: 1rem;
+        font-size: 3rem;
+        color: grey;
+      }
+      color: white;
+    }
+
+    .iconsDiv {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .originalIcon {
+        margin: 0.4rem;
+      }
+
+      .chatHeaderSearch {
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+
+  .mainChatBody {
+    flex: 1;
+    overflow-y: scroll;
+    -ms-overflow-style: none; //ms edge
+    scrollbar-width: none; /* Firefox */
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+
+    .chatMassage {
+      margin: 1rem 2rem;
+      display: flex;
+      align-items: center;
+
+      .massageAvatar {
+        margin: 0.5rem;
+      }
+
+      .massageChat {
+        margin: 0 1rem 0 0;
+      }
+    }
+  }
+
+  .sendingTools {
+    margin: 3rem;
+    background-color: rgba($color: #383737, $alpha: 0.8);
+    box-shadow: 0 0 9px #000000;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .sendingToolsIcon {
+      margin: 0.6rem;
+    }
+
+    .chatSendMassage {
+      flex: 1;
+      form {
+        input {
+          width: 100%;
+          height: 2rem;
+          padding: 0.2rem;
+        }
+      }
+    }
+  }
+}

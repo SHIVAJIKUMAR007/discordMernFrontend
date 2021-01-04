@@ -1,0 +1,186 @@
+.sidebar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 0.25;
+      -ms-flex: 0.25;
+          flex: 0.25;
+  height: 100vh;
+}
+
+.sidebar .sidebarTop {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.25rem;
+  border-bottom: 0.3rem solid #26282c;
+}
+
+.sidebar .sidebarChannel {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  color: grey;
+}
+
+.sidebar .sidebarChannel .sidebarChannelHeader {
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .sidebarChannel .sidebarChannelHeader .channelHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar .sidebarChannel .sidebarChannelHeader .addIcon:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar .sidebarChannel .channelList {
+  margin-top: 0.6rem;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.sidebar .sidebarChannel .channelList .channel {
+  padding: 0.4rem;
+}
+
+.sidebar .sidebarChannel .channelList .channel h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.sidebar .sidebarChannel .channelList .channel:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sidebar .sidebarChannel .channelList .channel:hover h3 {
+  color: white;
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+}
+
+.sidebar .sidebarChannel .channelList .channel:hover h3 span {
+  color: white;
+  margin: 0.4rem;
+}
+
+.sidebar .sidebarVoice {
+  border-top: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+  padding: 0.6rem;
+}
+
+.sidebar .sidebarVoice .voiceIcon {
+  color: #37af47;
+  margin-right: 0.7rem;
+}
+
+.sidebar .sidebarVoice .voiceInfo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.sidebar .sidebarVoice .voiceInfo h3 {
+  color: #37af47;
+}
+
+.sidebar .sidebarVoice .rightIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar .sidebarVoice .rightIcons .MuiSvgIcon-root {
+  margin: 0.3rem;
+}
+
+.sidebar .sidebarProfile {
+  border-top: 1px solid grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+  padding: 0.6rem;
+}
+
+.sidebar .sidebarProfile .avatar {
+  margin-right: 0.7rem;
+}
+
+.sidebar .sidebarProfile .profileInfo {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.sidebar .sidebarProfile .profileInfo h3 {
+  color: #37af47;
+}
+
+.sidebar .sidebarProfile .profileIcon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sidebar .sidebarProfile .profileIcon .MuiSvgIcon-root {
+  margin: 0.2rem;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+/*# sourceMappingURL=sidebar.css.map */

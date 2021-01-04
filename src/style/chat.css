@@ -1,0 +1,132 @@
+.chat {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0.75;
+      -ms-flex: 0.75 1;
+          flex: 0.75 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: grey;
+}
+
+.chat .chatHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.6rem;
+  border-bottom: 5px solid #383737;
+}
+
+.chat .chatHeader h1 {
+  color: white;
+}
+
+.chat .chatHeader h1 span {
+  margin-left: 3rem;
+  margin-right: 1rem;
+  font-size: 3rem;
+  color: grey;
+}
+
+.chat .chatHeader .iconsDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat .chatHeader .iconsDiv .originalIcon {
+  margin: 0.4rem;
+}
+
+.chat .chatHeader .iconsDiv .chatHeaderSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat .mainChatBody {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.chat .mainChatBody ::-webkit-scrollbar {
+  display: none;
+}
+
+.chat .mainChatBody .chatMassage {
+  margin: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat .mainChatBody .chatMassage .massageAvatar {
+  margin: 0.5rem;
+}
+
+.chat .mainChatBody .chatMassage .massageChat {
+  margin: 0 1rem 0 0;
+}
+
+.chat .sendingTools {
+  margin: 3rem;
+  background-color: rgba(56, 55, 55, 0.8);
+  -webkit-box-shadow: 0 0 9px #000000;
+          box-shadow: 0 0 9px #000000;
+  padding: 1rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.chat .sendingTools .sendingToolsIcon {
+  margin: 0.6rem;
+}
+
+.chat .sendingTools .chatSendMassage {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.chat .sendingTools .chatSendMassage form input {
+  width: 100%;
+  height: 2rem;
+  padding: 0.2rem;
+}
+/*# sourceMappingURL=chat.css.map */

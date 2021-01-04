@@ -1,0 +1,20 @@
+.App {
+  display: flex;
+}
+
+.App .login .center {
+  background-color: #2f3135;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.App .login .center button {
+  padding: 0.4rem 2rem;
+  color: white;
+  background-color: #738adb;
+  font-weight: 700;
+  outline-width: 0;
+  font-size: 2rem;
+}
