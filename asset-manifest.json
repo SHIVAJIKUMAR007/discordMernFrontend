@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/discordMernFrontend/static/css/main.089cb756.chunk.css",
+    "main.js": "/discordMernFrontend/static/js/main.0d643032.chunk.js",
+    "main.js.map": "/discordMernFrontend/static/js/main.0d643032.chunk.js.map",
+    "runtime-main.js": "/discordMernFrontend/static/js/runtime-main.9c08cfb9.js",
+    "runtime-main.js.map": "/discordMernFrontend/static/js/runtime-main.9c08cfb9.js.map",
+    "static/js/2.5fd70d8a.chunk.js": "/discordMernFrontend/static/js/2.5fd70d8a.chunk.js",
+    "static/js/2.5fd70d8a.chunk.js.map": "/discordMernFrontend/static/js/2.5fd70d8a.chunk.js.map",
+    "index.html": "/discordMernFrontend/index.html",
+    "precache-manifest.508d40b6ce8efaa05f63e61d175fc74e.js": "/discordMernFrontend/precache-manifest.508d40b6ce8efaa05f63e61d175fc74e.js",
+    "service-worker.js": "/discordMernFrontend/service-worker.js",
+    "static/css/main.089cb756.chunk.css.map": "/discordMernFrontend/static/css/main.089cb756.chunk.css.map",
+    "static/js/2.5fd70d8a.chunk.js.LICENSE.txt": "/discordMernFrontend/static/js/2.5fd70d8a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c08cfb9.js",
+    "static/js/2.5fd70d8a.chunk.js",
+    "static/css/main.089cb756.chunk.css",
+    "static/js/main.0d643032.chunk.js"
+  ]
+}
